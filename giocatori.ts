@@ -10,7 +10,7 @@ giocatore1 = diceRoll();
 giocatore2 = diceRoll();
 
 // Tira i dadi
-function diceRoll() {
+function diceRoll(): number {
     return Math.floor(Math.random() * 100);
 }
 
