@@ -11,7 +11,7 @@ giocatore2 = diceRoll();
 
 // Tira i dadi
 function diceRoll(): number {
-    return Math.floor((Math.random() * 100) + 1);
+    return Math.floor((Math.random() * (100 - 1) + 1));
 }
 
 // Mostrami i numeri usciti
